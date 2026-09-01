@@ -2,15 +2,34 @@ import {icons} from "./icons.js";
 import {spots_places} from "./spots.js";
 import {is_light_mod_map_true,Stadia_AlidadeSmooth,Stadia_AlidadeSmoothDark,toggle_theme,button} from "./theme_switch.js";
 import {sortPlaces,sort_button} from "./filter.js";
+import {show_more_less, get_expand_btn, get_expand_div, bool, chevron_icon} from "./hide_element.js";
 
 const layerGroups = {};
 
+// if (window.innerWidth <= 540) {
+//     let map = L.map('map', {minZoom: 13, maxZoom: 19}).setView([43.2331329,0.0752746], 15).setMaxBounds([[43.303753, -0.058706],[43.160907, 0.130221]]);
+//     Stadia_AlidadeSmooth.addTo(map);
+//     button.addEventListener('click', () => {
+//         toggle_theme(map);
+// })
+// } else {
+//     let map = L.map('map', {minZoom: 14, maxZoom: 19}).setView([43.2331329,0.0752746], 15).setMaxBounds([[43.303753, -0.058706],[43.160907, 0.130221]]);
+//     Stadia_AlidadeSmooth.addTo(map);
+//     button.addEventListener('click', () => {
+//         toggle_theme(map);
+//     })
+// }
 
-let map = L.map('map', {minZoom: 15, maxZoom: 19}).setView([43.2331329,0.0752746], 15).setMaxBounds([[43.303753, -0.058706],[43.160907, 0.130221]]);
+let map = L.map('map', {minZoom: 13, maxZoom: 19}).setView([43.2331329,0.0752746], 15).setMaxBounds([[43.303753, -0.058706],[43.160907, 0.130221]]);
 Stadia_AlidadeSmooth.addTo(map);
-
 button.addEventListener('click', () => {
     toggle_theme(map);
+})
+
+get_expand_btn.addEventListener('click', () => {
+    show_more_less();
+    chevron_icon.addEventListener("click", () => {
+})
 })
 
 sort_button.forEach((element,index) => {
