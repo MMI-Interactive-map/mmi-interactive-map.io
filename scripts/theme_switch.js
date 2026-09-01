@@ -6,12 +6,12 @@ function toggle_theme(mapInstance) {
     if (is_light_mod_map_true) {
         Stadia_AlidadeSmoothDark.remove(mapInstance);
         Stadia_AlidadeSmooth.addTo(mapInstance);
-        switch_img.src = "../src/icons_map/lightmode.png";
+        switch_img.src = "./src/icons_map/lightmode.png";
     }
     else {
         Stadia_AlidadeSmooth.remove(mapInstance);
         Stadia_AlidadeSmoothDark.addTo(mapInstance);
-        switch_img.src = "../src/icons_map/DarkMode.png";
+        switch_img.src = "./src/icons_map/DarkMode.png";
     }
 }
 
