@@ -14,7 +14,8 @@ export let spots_places = [
   //   picture: "/src/mizuki_cute_test.jpg",
   //   type: "Test_type",
   //   type_icon: icons["test_icon"],
-  //   color: "#6A2D7A"
+  //   color: "#6A2D7A",
+  //   zoomValue: 13
   // },
   {
     id: 1,
@@ -29,7 +30,8 @@ export let spots_places = [
     picture: "/src/pharmacie.png",
     type: "Médical",
     type_icon: icons["medical_icon"],
-    color: "#6BC919"
+    color: "#6BC919",
+    zoomValue: 13
   },
   {
     id: 2,
@@ -44,7 +46,8 @@ export let spots_places = [
     picture: "/src/pharmacie_ba.png",
     type: "Médical",
     type_icon: icons["medical_icon"],
-    color: "#6BC919"
+    color: "#6BC919",
+    zoomValue: 14
   },
   // {
   //   id: 3,
@@ -59,7 +62,8 @@ export let spots_places = [
   //   picture: "/src/pharmacie_ba.png",
   //   type: "Restaurants",
   //   type_icon: icons["restaurant_icon"],
-  //   color: "#E2D100"
+  //   color: "#E2D100",
+  //   zoomValue: 13
   // },
   // {
   //   id: 4,
@@ -74,7 +78,8 @@ export let spots_places = [
   //   picture: "/src/pharmacie_ba.png",
   //   type: "Partners",
   //   type_icon: icons["partner_icon"],
-  //   color: "#C300BC"
+  //   color: "#C300BC",
+  //   zoomValue: 13
   // },
   {
     id: 5,
@@ -89,7 +94,8 @@ export let spots_places = [
     picture: "/src/placeholder.png",
     type: "Restaurants",
     type_icon: icons["restaurant_icon"],
-    color: "#E2D100"
+    color: "#E2D100",
+    zoomValue: 13
   },
   {
     id: 6,
@@ -104,7 +110,8 @@ export let spots_places = [
     picture: "/src/placeholder.png",
     type: "Restaurants",
     type_icon: icons["restaurant_icon"],
-    color: "#E2D100"
+    color: "#E2D100",
+    zoomValue: 13
   },
   {
     id: 7,
@@ -119,7 +126,8 @@ export let spots_places = [
     picture: "/src/placeholder.png",
     type: "Restaurants",
     type_icon: icons["restaurant_icon"],
-    color: "#E2D100"
+    color: "#E2D100",
+    zoomValue: 13
   },
   {
     id: 8,
@@ -134,7 +142,8 @@ export let spots_places = [
     picture: "/src/placeholder.png",
     type: "Restaurants",
     type_icon: icons["restaurant_icon"],
-    color: "#E2D100"
+    color: "#E2D100",
+    zoomValue: 13
   },
   {
     id: 9,
@@ -149,7 +158,8 @@ export let spots_places = [
     picture: "/src/placeholder.png",
     type: "Restaurants",
     type_icon: icons["restaurant_icon"],
-    color: "#E2D100"
+    color: "#E2D100",
+    zoomValue: 13
   },
   {
     id: 10,
@@ -164,7 +174,8 @@ export let spots_places = [
     picture: "/src/placeholder.png",
     type: "Restaurants",
     type_icon: icons["restaurant_icon"],
-    color: "#E2D100"
+    color: "#E2D100",
+    zoomValue: 13
   },
   {
     id: 11,
@@ -179,7 +190,8 @@ export let spots_places = [
     picture: "/src/placeholder.png",
     type: "Restaurants",
     type_icon: icons["restaurant_icon"],
-    color: "#E2D100"
+    color: "#E2D100",
+    zoomValue: 13
   },
   {
     id: 12,
@@ -194,7 +206,8 @@ export let spots_places = [
     picture: "/src/placeholder.png",
     type: "Restaurants",
     type_icon: icons["restaurant_icon"],
-    color: "#E2D100"
+    color: "#E2D100",
+    zoomValue: 13
   },
   {
     id: 13,
@@ -209,7 +222,8 @@ export let spots_places = [
     picture: "/src/placeholder.png",
     type: "Restaurants",
     type_icon: icons["restaurant_icon"],
-    color: "#E2D100"
+    color: "#E2D100",
+    zoomValue: 13
   },
   {
     id: 14,
@@ -224,7 +238,8 @@ export let spots_places = [
     picture: "/src/placeholder.png",
     type: "Restaurants",
     type_icon: icons["restaurant_icon"],
-    color: "#E2D100"
+    color: "#E2D100",
+    zoomValue: 13
   },
   // {
   //   id: 15,
@@ -239,7 +254,8 @@ export let spots_places = [
   //   picture: "/src/placeholder.png",
   //   type: "Restaurants",
   //   type_icon: icons["restaurant_icon"],
-  //   color: "#E2D100"
+  //   color: "#E2D100",
+  //   zoomValue: 13
   // },
   // {
   //   id: 16,
@@ -254,7 +270,8 @@ export let spots_places = [
   //   picture: "/src/placeholder.png",
   //   type: "Restaurants",
   //   type_icon: icons["restaurant_icon"],
-  //   color: "#E2D100"
+  //   color: "#E2D100",
+  //   zoomValue: 13
   // },
   {
     id: 17,
@@ -269,7 +286,8 @@ export let spots_places = [
     picture: "/src/placeholder.png",
     type: "Restaurants",
     type_icon: icons["restaurant_icon"],
-    color: "#E2D100"
+    color: "#E2D100",
+    zoomValue: 13
   },
   {
     id: 18,
@@ -284,7 +302,8 @@ export let spots_places = [
     picture: "/src/placeholder.png",
     type: "Restaurants",
     type_icon: icons["restaurant_icon"],
-    color: "#E2D100"
+    color: "#E2D100",
+    zoomValue: 13
   },
   // {
   //   id: 19,
@@ -299,7 +318,8 @@ export let spots_places = [
   //   picture: "/src/placeholder.png",
   //   type: "Restaurants",
   //   type_icon: icons["restaurant_icon"],
-  //   color: "#E2D100"
+  //   color: "#E2D100",
+  //   zoomValue: 13
   // },
   {
     id: 20,
@@ -314,7 +334,8 @@ export let spots_places = [
     picture: "/src/placeholder.png",
     type: "Restaurants",
     type_icon: icons["restaurant_icon"],
-    color: "#E2D100"
+    color: "#E2D100",
+    zoomValue: 13
   },
   {
     id: 21,
@@ -329,7 +350,8 @@ export let spots_places = [
     picture: "/src/placeholder.png",
     type: "Restaurants",
     type_icon: icons["restaurant_icon"],
-    color: "#E2D100"
+    color: "#E2D100",
+    zoomValue: 13
   },
   {
     id: 22,
@@ -344,7 +366,8 @@ export let spots_places = [
     picture: "/src/placeholder.png",
     type: "Restaurants",
     type_icon: icons["restaurant_icon"],
-    color: "#E2D100"
+    color: "#E2D100",
+    zoomValue: 13
   },
   {
     id: 23,
@@ -359,7 +382,8 @@ export let spots_places = [
     picture: "/src/placeholder.png",
     type: "Magasins",
     type_icon: icons["store_icon"],
-    color: "#00A2FF"
+    color: "#00A2FF",
+    zoomValue: 13
   },
   {
     id: 24,
@@ -374,7 +398,8 @@ export let spots_places = [
     picture: "/src/placeholder.png",
     type: "Magasins",
     type_icon: icons["store_icon"],
-    color: "#00A2FF"
+    color: "#00A2FF",
+    zoomValue: 13
   },
   {
     id: 26,
@@ -389,7 +414,8 @@ export let spots_places = [
     picture: "/src/placeholder.png",
     type: "Magasins",
     type_icon: icons["store_icon"],
-    color: "#00A2FF"
+    color: "#00A2FF",
+    zoomValue: 13
   },
   {
     id: 27,
@@ -404,7 +430,8 @@ export let spots_places = [
     picture: "/src/placeholder.png",
     type: "Magasins",
     type_icon: icons["store_icon"],
-    color: "#00A2FF"
+    color: "#00A2FF",
+    zoomValue: 13
   },
   {
     id: 28,
@@ -419,7 +446,8 @@ export let spots_places = [
     picture: "/src/placeholder.png",
     type: "Magasins",
     type_icon: icons["store_icon"],
-    color: "#00A2FF"
+    color: "#00A2FF",
+    zoomValue: 13
   },
   {
     id: 29,
@@ -434,7 +462,8 @@ export let spots_places = [
     picture: "/src/placeholder.png",
     type: "Magasins",
     type_icon: icons["store_icon"],
-    color: "#00A2FF"
+    color: "#00A2FF",
+    zoomValue: 13
   },
   {
     id: 30,
@@ -449,7 +478,8 @@ export let spots_places = [
     picture: "/src/placeholder.png",
     type: "Magasins",
     type_icon: icons["store_icon"],
-    color: "#00A2FF"
+    color: "#00A2FF",
+    zoomValue: 13
   },
   {
     id: 31,
@@ -464,7 +494,8 @@ export let spots_places = [
     picture: "/src/placeholder.png",
     type: "Magasins",
     type_icon: icons["store_icon"],
-    color: "#00A2FF"
+    color: "#00A2FF",
+    zoomValue: 13
   },
   {
     id: 32,
@@ -479,7 +510,8 @@ export let spots_places = [
     picture: "/src/placeholder.png",
     type: "Magasins",
     type_icon: icons["store_icon"],
-    color: "#00A2FF"
+    color: "#00A2FF",
+    zoomValue: 13
   },
   {
     id: 33,
@@ -494,7 +526,8 @@ export let spots_places = [
     picture: "/src/placeholder.png",
     type: "Magasins",
     type_icon: icons["store_icon"],
-    color: "#00A2FF"
+    color: "#00A2FF",
+    zoomValue: 13
   },
   {
     id: 34,
@@ -509,7 +542,8 @@ export let spots_places = [
     picture: "/src/placeholder.png",
     type: "Magasins",
     type_icon: icons["store_icon"],
-    color: "#00A2FF"
+    color: "#00A2FF",
+    zoomValue: 13
   },
   {
     id: 35,
@@ -524,7 +558,8 @@ export let spots_places = [
     picture: "/src/placeholder.png",
     type: "Magasins",
     type_icon: icons["store_icon"],
-    color: "#00A2FF"
+    color: "#00A2FF",
+    zoomValue: 13
   },
   {
     id: 36,
@@ -539,7 +574,8 @@ export let spots_places = [
     picture: "/src/placeholder.png",
     type: "Magasins",
     type_icon: icons["store_icon"],
-    color: "#00A2FF"
+    color: "#00A2FF",
+    zoomValue: 13
   },
   // {
   //   id: 37,
@@ -554,7 +590,8 @@ export let spots_places = [
   //   picture: "/src/placeholder.png",
   //   type: "Magasins",
   //   type_icon: icons["store_icon"],
-  //   color: "#00A2FF"
+  //   color: "#00A2FF",
+  //   zoomValue: 13
   // },
   {
     id: 38,
@@ -569,7 +606,8 @@ export let spots_places = [
     picture: "/src/placeholder.png",
     type: "Magasins",
     type_icon: icons["store_icon"],
-    color: "#00A2FF"
+    color: "#00A2FF",
+    zoomValue: 13
   },
   {
     id: 39,
@@ -584,7 +622,8 @@ export let spots_places = [
     picture: "/src/placeholder.png",
     type: "Magasins",
     type_icon: icons["store_icon"],
-    color: "#00A2FF"
+    color: "#00A2FF",
+    zoomValue: 13
   },
   {
     id: 40,
@@ -599,7 +638,8 @@ export let spots_places = [
     picture: "/src/placeholder.png",
     type: "Magasins",
     type_icon: icons["store_icon"],
-    color: "#00A2FF"
+    color: "#00A2FF",
+    zoomValue: 13
   },
   {
     id: 41,
@@ -614,7 +654,8 @@ export let spots_places = [
     picture: "/src/placeholder.png",
     type: "Magasins",
     type_icon: icons["store_icon"],
-    color: "#00A2FF"
+    color: "#00A2FF",
+    zoomValue: 13
   },
   {
     id: 42,
@@ -629,7 +670,8 @@ export let spots_places = [
     picture: "/src/placeholder.png",
     type: "Magasins",
     type_icon: icons["store_icon"],
-    color: "#00A2FF"
+    color: "#00A2FF",
+    zoomValue: 13
   },
   {
     id: 43,
@@ -644,7 +686,8 @@ export let spots_places = [
     picture: "/src/placeholder.png",
     type: "Magasins",
     type_icon: icons["store_icon"],
-    color: "#00A2FF"
+    color: "#00A2FF",
+    zoomValue: 13
   },
   {
     id: 44,
@@ -659,7 +702,8 @@ export let spots_places = [
     picture: "/src/placeholder.png",
     type: "Magasins",
     type_icon: icons["store_icon"],
-    color: "#00A2FF"
+    color: "#00A2FF",
+    zoomValue: 13
   },
   {
     id: 45,
@@ -674,7 +718,8 @@ export let spots_places = [
     picture: "/src/placeholder.png",
     type: "Administration",
     type_icon: icons["administation_icon"],
-    color: "#FF5733"
+    color: "#FF5733",
+    zoomValue: 13
   },
   {
     id: 46,
@@ -689,7 +734,8 @@ export let spots_places = [
     picture: "/src/placeholder.png",
     type: "Administration",
     type_icon: icons["administation_icon"],
-    color: "#FF5733"
+    color: "#FF5733",
+    zoomValue: 13
   },
   // {
   //   id: 47,
@@ -704,7 +750,8 @@ export let spots_places = [
   //   picture: "/src/placeholder.png",
   //   type: "Administration",
   //   type_icon: icons["administation_icon"],
-  //   color: "#FF5733"
+  //   color: "#FF5733",
+  //   zoomValue: 13
   // },
   {
     id: 48,
@@ -719,7 +766,8 @@ export let spots_places = [
     picture: "/src/placeholder.png",
     type: "Administration",
     type_icon: icons["administation_icon"],
-    color: "#FF5733"
+    color: "#FF5733",
+    zoomValue: 13
   },
   // {
   //   id: 49,
@@ -734,7 +782,8 @@ export let spots_places = [
   //   picture: "/src/placeholder.png",
   //   type: "Administration",
   //   type_icon: icons["administation_icon"],
-  //   color: "#FF5733"
+  //   color: "#FF5733",
+  //   zoomValue: 13
   // },
   // {
   //   id: 50,
@@ -749,7 +798,8 @@ export let spots_places = [
   //   picture: "/src/placeholder.png",
   //   type: "Administration",
   //   type_icon: icons["administation_icon"],
-  //   color: "#FF5733"
+  //   color: "#FF5733",
+  //   zoomValue: 13
   // },
   {
     id: 51,
@@ -764,7 +814,8 @@ export let spots_places = [
     picture: "/src/placeholder.png",
     type: "Médical",
     type_icon: icons["medical_icon"],
-    color: "#6BC919"
+    color: "#6BC919",
+    zoomValue: 15
   },
   // {
   //   id: 52,
@@ -779,7 +830,8 @@ export let spots_places = [
   //   picture: "/src/placeholder.png",
   //   type: "Médical",
   //   type_icon: icons["medical_icon"],
-  //   color: "#6BC919"
+  //   color: "#6BC919",
+  //   zoomValue: 13
   // },
   // {
   //   id: 53,
@@ -794,7 +846,8 @@ export let spots_places = [
   //   picture: "/src/placeholder.png",
   //   type: "Médical",
   //   type_icon: icons["medical_icon"],
-  //   color: "#6BC919"
+  //   color: "#6BC919",
+  //   zoomValue: 13
   // },
   {
     id: 54,
@@ -809,7 +862,8 @@ export let spots_places = [
     picture: "/src/placeholder.png",
     type: "Médical",
     type_icon: icons["medical_icon"],
-    color: "#6BC919"
+    color: "#6BC919",
+    zoomValue: 16
   },
   {
     id: 55,
@@ -824,7 +878,8 @@ export let spots_places = [
     picture: "/src/placeholder.png",
     type: "Médical",
     type_icon: icons["medical_icon"],
-    color: "#6BC919"
+    color: "#6BC919",
+    zoomValue: 17
   },
   {
     id: 56,
@@ -839,7 +894,8 @@ export let spots_places = [
     picture: "/src/placeholder.png",
     type: "Banques",
     type_icon: icons["bank_icon"],
-    color: "#FFC300"
+    color: "#FFC300",
+    zoomValue: 13
   },
   // {
   //   id: 57,
@@ -854,7 +910,8 @@ export let spots_places = [
   //   picture: "/src/placeholder.png",
   //   type: "Banques",
   //   type_icon: icons["bank_icon"],
-  //   color: "#FFC300"
+  //   color: "#FFC300",
+  //   zoomValue: 13
   // },
   {
     id: 58,
@@ -869,7 +926,8 @@ export let spots_places = [
     picture: "/src/placeholder.png",
     type: "Activités",
     type_icon: icons["activity_icon"],
-    color: "#FF33A8"
+    color: "#FF33A8",
+    zoomValue: 13
   },
   {
     id: 59,
@@ -884,7 +942,8 @@ export let spots_places = [
     picture: "/src/placeholder.png",
     type: "Activités",
     type_icon: icons["activity_icon"],
-    color: "#FF33A8"
+    color: "#FF33A8",
+    zoomValue: 13
   },
   {
     id: 60,
@@ -899,7 +958,8 @@ export let spots_places = [
     picture: "/src/placeholder.png",
     type: "Activités",
     type_icon: icons["activity_icon"],
-    color: "#FF33A8"
+    color: "#FF33A8",
+    zoomValue: 13
   },
   {
     id: 61,
@@ -914,7 +974,8 @@ export let spots_places = [
     picture: "/src/placeholder.png",
     type: "Activités",
     type_icon: icons["activity_icon"],
-    color: "#FF33A8"
+    color: "#FF33A8",
+    zoomValue: 13
   },
   // {
   //   id: 62,
@@ -929,7 +990,8 @@ export let spots_places = [
   //   picture: "/src/placeholder.png",
   //   type: "Activités",
   //   type_icon: icons["activity_icon"],
-  //   color: "#FF33A8"
+  //   color: "#FF33A8",
+  //   zoomValue: 13
   // },
   {
     id: 63,
@@ -944,7 +1006,8 @@ export let spots_places = [
     picture: "/src/placeholder.png",
     type: "Activités",
     type_icon: icons["activity_icon"],
-    color: "#FF33A8"
+    color: "#FF33A8",
+    zoomValue: 13
   },
   {
     id: 64,
@@ -959,7 +1022,8 @@ export let spots_places = [
     picture: "/src/placeholder.png",
     type: "Activités",
     type_icon: icons["activity_icon"],
-    color: "#FF33A8"
+    color: "#FF33A8",
+    zoomValue: 13
   },
   {
     id: 65,
@@ -974,7 +1038,8 @@ export let spots_places = [
     picture: "/src/placeholder.png",
     type: "Activités",
     type_icon: icons["activity_icon"],
-    color: "#FF33A8"
+    color: "#FF33A8",
+    zoomValue: 13
   },
   {
     id: 66,
@@ -989,7 +1054,8 @@ export let spots_places = [
     picture: "/src/placeholder.png",
     type: "Activités",
     type_icon: icons["activity_icon"],
-    color: "#FF33A8"
+    color: "#FF33A8",
+    zoomValue: 13
   },
   // {
   //   id: 68,
@@ -1004,6 +1070,7 @@ export let spots_places = [
   //   picture: "/src/placeholder.png",
   //   type: "Activités",
   //   type_icon: icons["activity_icon"],
-  //   color: "#FF33A8"
+  //   color: "#FF33A8",
+  //   zoomValue: 13
   // }
 ];
