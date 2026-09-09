@@ -129,12 +129,24 @@ td{
 .custom_popup_name {
     text-align: center;
     padding: 10px 10px !important;
-    margin: 0px 0px !important;
+    margin: 30px 0px 0px 0px !important;
+    display: flex;
+    gap: 10px;
+}
+
+.custom_popup_name img {
+    height: 50px;
+    width: auto;
+}
+
+.custom_popup_name p {
+    font-size: 16px;
 }
 
 .custom_popup_image {
     width: 100%;
-    object-fit: contain;
+    height: 150px;
+    object-fit:cover;
 }
 
 .custom_popup_link {
@@ -158,6 +170,20 @@ td{
     width: 24px;
 }
 
+.custom_popup_div {
+    display: flex;
+    justify-content: center;
+}
+.custom_popup_hr {
+    width: 70%;
+    height: 3px;
+    background: #333;
+    border-radius: 20px;
+}
+
+a:-webkit-any-link {
+    color: unset !important;
+}
 
 @media (max-width: 1185px) {
  .btn_text {
@@ -187,5 +213,9 @@ td{
         height: 20px;
         width: 20px;
         rotate: 270deg;
+    }
+
+    .custom_popup_link {
+        margin-bottom: 200px;
     }
 }
