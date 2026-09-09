@@ -75,7 +75,7 @@ spots_places.forEach(element => {
         `<div class ='custom_popup_div'><div class ='custom_popup_hr'></div></div>` +
         `<p class = 'custom_popup_comment'>${element.comment}</p>` +
         `<div class ='custom_popup_div'><div class ='custom_popup_hr'></div></div>` +
-        `<a class ='custom_popup_link' href="${element.GoogleMapLink}"><img class = 'custom_popup_icon_map' src="./src/icons_map/map--location-arrow.svg" alt="icon">Ouvrir Google Map</a>` +
+        `<a class ='custom_popup_link' href="${element.GoogleMapLink}" target="_blank"><img class = 'custom_popup_icon_map' src="./src/icons_map/map--location-arrow.svg" alt="icon">Ouvrir Google Map</a>` +
         `<a class ='custom_popup_link' href="tel:${element.number}"><img class = 'custom_popup_icon_map' src="./src/icons_map/basil--phone-solid.svg" alt="icon">${element.number}</a>`,
         {pane: "custom_popup", autoPan: false});
 });
