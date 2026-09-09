@@ -29,26 +29,37 @@ if (hour < 18) {
 } 
 
 map.createPane("custom_popup", map.getContainer());
+
 button.addEventListener('click', () => {
     toggle_theme(map);
 })
 
 get_expand_btn.addEventListener('click', () => {
-    this.style.border = "2px solid red";
     show_more_less();
 })
 
+function remove_style() {
+    sort_button.forEach((element) => {
+        element.style.border = "none";
+    })
+}
+
 sort_button.forEach((element) => {
     element.addEventListener('click', () => {
+        remove_style();
+        element.style.border = "2px solid #333"; 
         activebutton = element.dataset.type;
         sortPlaces(element,map,layerGroups);
     })
 })
 
-map.on('zoomend', () => {
+map.on("load", () => {
     leaflet_dynamic_zoom(layerGroups, map, activebutton);
 });
 
+map.on('zoomend', () => {
+    leaflet_dynamic_zoom(layerGroups, map, activebutton);
+});
 
 
 

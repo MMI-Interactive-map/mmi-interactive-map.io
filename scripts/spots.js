@@ -47,7 +47,7 @@ export let spots_places = [
     type: "Médical",
     type_icon: icons["medical_icon"],
     color: "#6BC919",
-    zoomValue: 14
+    zoomValue: 16
   },
   {
     id: 5,
@@ -63,12 +63,12 @@ export let spots_places = [
     type: "Restaurants",
     type_icon: icons["restaurant_icon"],
     color: "#E2D100",
-    zoomValue: 13
+    zoomValue: 17
   },
   {
     id: 6,
     location: [43.221468127085686, 0.060862804273980095],
-    name: "McDonald's Tar",
+    name: "McDonald's",
     hours: [
       ["10h30-00h00"], ["10h30-00h00"], ["10h30-00h00"], ["10h30-00h00"], ["10h30-01h00"], ["10h30-01h00"], ["10h30-00h00"]
     ],
@@ -79,7 +79,7 @@ export let spots_places = [
     type: "Restaurants",
     type_icon: icons["restaurant_icon"],
     color: "#E2D100",
-    zoomValue: 13
+    zoomValue: 17
   },
   {
     id: 7,
@@ -95,7 +95,7 @@ export let spots_places = [
     type: "Restaurants",
     type_icon: icons["restaurant_icon"],
     color: "#E2D100",
-    zoomValue: 13
+    zoomValue: 17
   },
   {
     id: 8,
@@ -111,7 +111,7 @@ export let spots_places = [
     type: "Restaurants",
     type_icon: icons["restaurant_icon"],
     color: "#E2D100",
-    zoomValue: 13
+    zoomValue: 17
   },
   {
     id: 9,
@@ -127,7 +127,7 @@ export let spots_places = [
     type: "Restaurants",
     type_icon: icons["restaurant_icon"],
     color: "#E2D100",
-    zoomValue: 13
+    zoomValue: 17
   },
   {
     id: 10,
@@ -143,7 +143,7 @@ export let spots_places = [
     type: "Restaurants",
     type_icon: icons["restaurant_icon"],
     color: "#E2D100",
-    zoomValue: 13
+    zoomValue: 18
   },
   {
     id: 11,
@@ -159,7 +159,7 @@ export let spots_places = [
     type: "Restaurants",
     type_icon: icons["restaurant_icon"],
     color: "#E2D100",
-    zoomValue: 13
+    zoomValue: 19
   },
   {
     id: 12,
@@ -175,7 +175,7 @@ export let spots_places = [
     type: "Restaurants",
     type_icon: icons["restaurant_icon"],
     color: "#E2D100",
-    zoomValue: 13
+    zoomValue: 18
   },
   {
     id: 13,
@@ -191,7 +191,7 @@ export let spots_places = [
     type: "Restaurants",
     type_icon: icons["restaurant_icon"],
     color: "#E2D100",
-    zoomValue: 13
+    zoomValue: 18
   },
   {
     id: 14,
@@ -207,7 +207,7 @@ export let spots_places = [
     type: "Restaurants",
     type_icon: icons["restaurant_icon"],
     color: "#E2D100",
-    zoomValue: 13
+    zoomValue: 16
   },
   {
     id: 17,
@@ -223,7 +223,7 @@ export let spots_places = [
     type: "Restaurants",
     type_icon: icons["restaurant_icon"],
     color: "#E2D100",
-    zoomValue: 13
+    zoomValue: 17
   },
   {
     id: 18,
@@ -239,7 +239,7 @@ export let spots_places = [
     type: "Restaurants",
     type_icon: icons["restaurant_icon"],
     color: "#E2D100",
-    zoomValue: 13
+    zoomValue: 17
   },
   {
     id: 20,
@@ -255,7 +255,7 @@ export let spots_places = [
     type: "Restaurants",
     type_icon: icons["restaurant_icon"],
     color: "#E2D100",
-    zoomValue: 13
+    zoomValue: 17
   },
   {
     id: 21,
@@ -271,7 +271,7 @@ export let spots_places = [
     type: "Restaurants",
     type_icon: icons["restaurant_icon"],
     color: "#E2D100",
-    zoomValue: 13
+    zoomValue: 18
   },
   {
     id: 22,
@@ -287,7 +287,7 @@ export let spots_places = [
     type: "Restaurants",
     type_icon: icons["restaurant_icon"],
     color: "#E2D100",
-    zoomValue: 13
+    zoomValue: 16
   },
   {
     id: 23,
@@ -303,7 +303,7 @@ export let spots_places = [
     type: "Magasins",
     type_icon: icons["store_icon"],
     color: "#00A2FF",
-    zoomValue: 13
+    zoomValue: 17
   },
   {
     id: 24,
@@ -319,7 +319,7 @@ export let spots_places = [
     type: "Magasins",
     type_icon: icons["store_icon"],
     color: "#00A2FF",
-    zoomValue: 13
+    zoomValue: 19
   },
   {
     id: 26,
@@ -335,7 +335,7 @@ export let spots_places = [
     type: "Magasins",
     type_icon: icons["store_icon"],
     color: "#00A2FF",
-    zoomValue: 13
+    zoomValue: 17
   },
   {
     id: 27,
@@ -351,7 +351,7 @@ export let spots_places = [
     type: "Magasins",
     type_icon: icons["store_icon"],
     color: "#00A2FF",
-    zoomValue: 13
+    zoomValue: 17
   },
   {
     id: 28,
@@ -367,7 +367,7 @@ export let spots_places = [
     type: "Magasins",
     type_icon: icons["store_icon"],
     color: "#00A2FF",
-    zoomValue: 13
+    zoomValue: 18
   },
   {
     id: 29,
@@ -383,7 +383,7 @@ export let spots_places = [
     type: "Magasins",
     type_icon: icons["store_icon"],
     color: "#00A2FF",
-    zoomValue: 13
+    zoomValue: 17
   },
   {
     id: 30,
@@ -399,7 +399,7 @@ export let spots_places = [
     type: "Magasins",
     type_icon: icons["store_icon"],
     color: "#00A2FF",
-    zoomValue: 13
+    zoomValue: 17
   },
   {
     id: 31,
@@ -415,7 +415,7 @@ export let spots_places = [
     type: "Magasins",
     type_icon: icons["store_icon"],
     color: "#00A2FF",
-    zoomValue: 13
+    zoomValue: 17
   },
   {
     id: 32,
@@ -431,7 +431,7 @@ export let spots_places = [
     type: "Magasins",
     type_icon: icons["store_icon"],
     color: "#00A2FF",
-    zoomValue: 13
+    zoomValue: 17
   },
   {
     id: 33,
@@ -447,7 +447,7 @@ export let spots_places = [
     type: "Magasins",
     type_icon: icons["store_icon"],
     color: "#00A2FF",
-    zoomValue: 13
+    zoomValue: 18
   },
   {
     id: 34,
@@ -479,7 +479,7 @@ export let spots_places = [
     type: "Magasins",
     type_icon: icons["store_icon"],
     color: "#00A2FF",
-    zoomValue: 13
+    zoomValue: 17
   },
   {
     id: 36,
@@ -511,7 +511,7 @@ export let spots_places = [
     type: "Magasins",
     type_icon: icons["store_icon"],
     color: "#00A2FF",
-    zoomValue: 13
+    zoomValue: 16
   },
   {
     id: 39,
@@ -527,7 +527,7 @@ export let spots_places = [
     type: "Magasins",
     type_icon: icons["store_icon"],
     color: "#00A2FF",
-    zoomValue: 13
+    zoomValue: 16
   },
   {
     id: 40,
@@ -543,7 +543,7 @@ export let spots_places = [
     type: "Magasins",
     type_icon: icons["store_icon"],
     color: "#00A2FF",
-    zoomValue: 13
+    zoomValue: 16
   },
   // {
   //   id: 41,
@@ -575,7 +575,7 @@ export let spots_places = [
     type: "Magasins",
     type_icon: icons["store_icon"],
     color: "#00A2FF",
-    zoomValue: 13
+    zoomValue: 19
   },
   {
     id: 43,
@@ -591,7 +591,7 @@ export let spots_places = [
     type: "Magasins",
     type_icon: icons["store_icon"],
     color: "#00A2FF",
-    zoomValue: 13
+    zoomValue: 19
   },
   {
     id: 44,
@@ -639,7 +639,7 @@ export let spots_places = [
     type: "Administration",
     type_icon: icons["administation_icon"],
     color: "#FF5733",
-    zoomValue: 13
+    zoomValue: 17
   },
   {
     id: 48,
@@ -671,7 +671,7 @@ export let spots_places = [
     type: "Médical",
     type_icon: icons["medical_icon"],
     color: "#6BC919",
-    zoomValue: 15
+    zoomValue: 13
   },
   {
     id: 54,
@@ -703,7 +703,7 @@ export let spots_places = [
     type: "Médical",
     type_icon: icons["medical_icon"],
     color: "#6BC919",
-    zoomValue: 17
+    zoomValue: 16
   },
   {
     id: 56,
@@ -719,7 +719,7 @@ export let spots_places = [
     type: "Banques",
     type_icon: icons["bank_icon"],
     color: "#FFC300",
-    zoomValue: 13
+    zoomValue: 16
   },
   {
     id: 58,
@@ -735,7 +735,7 @@ export let spots_places = [
     type: "Activités",
     type_icon: icons["activity_icon"],
     color: "#FF33A8",
-    zoomValue: 13
+    zoomValue: 16
   },
   {
     id: 59,
@@ -751,7 +751,7 @@ export let spots_places = [
     type: "Activités",
     type_icon: icons["activity_icon"],
     color: "#FF33A8",
-    zoomValue: 13
+    zoomValue: 18
   },
   {
     id: 60,
@@ -767,12 +767,12 @@ export let spots_places = [
     type: "Activités",
     type_icon: icons["activity_icon"],
     color: "#FF33A8",
-    zoomValue: 13
+    zoomValue: 15
   },
   {
     id: 61,
     location: [43.238021948507225, 0.07619926839134204],
-    name: "Parc Massey",
+    name: "Jardin Massey",
     hours: [
       ["07h00-21h00"], ["07h00-21h00"], ["07h00-21h00"], ["07h00-21h00"], ["07h00-21h00"], ["07h00-21h00"], ["07h00-21h00"]
     ],
@@ -799,7 +799,7 @@ export let spots_places = [
     type: "Activités",
     type_icon: icons["activity_icon"],
     color: "#FF33A8",
-    zoomValue: 13
+    zoomValue: 16
   },
   {
     id: 64,
@@ -815,7 +815,7 @@ export let spots_places = [
     type: "Activités",
     type_icon: icons["activity_icon"],
     color: "#FF33A8",
-    zoomValue: 13
+    zoomValue: 18
   },
   {
     id: 65,
@@ -831,7 +831,7 @@ export let spots_places = [
     type: "Activités",
     type_icon: icons["activity_icon"],
     color: "#FF33A8",
-    zoomValue: 13
+    zoomValue: 18
   },
   {
     id: 66,
