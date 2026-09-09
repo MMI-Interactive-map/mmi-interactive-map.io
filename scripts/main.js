@@ -19,13 +19,11 @@ if (window.innerWidth <= 540) {
 
 let map = L.map('map', {minZoom: MinZ, maxZoom: 19}).setView([43.2331329,0.0752746], 15).setMaxBounds([[43.303753, -0.058706],[43.160907, 0.130221]]);
 if (hour < 18) {
-    // document.querySelector(".leaflet-popup-content-wrapper").classList.remove("leaflet-popup-content-wrapper");
-    // document.querySelector(".leaflet-popup-content-wrapper").classList.add("leaflet-popup-content-wrapper_dark");
     Stadia_AlidadeSmooth.addTo(map);
+    document.querySelector(".get_img").src = "./src/icons_map/lightmode.png";
 } else {
-    // document.querySelector(".leaflet-popup-content-wrapper").classList.remove("leaflet-popup-content-wrapper");
-    // document.querySelector(".leaflet-popup-content-wrapper").classList.add("leaflet-popup-content-wrapper_dark");
     Stadia_AlidadeSmoothDark.addTo(map);
+    document.querySelector(".get_img").src = "./src/icons_map/darkmode.png";
 } 
 
 map.createPane("custom_popup", map.getContainer());
@@ -72,12 +70,12 @@ spots_places.forEach(element => {
     let newMarker = L.marker(element.location, {icon: element.type_icon, pane: `${element.type + element.zoomValue}`}).addTo(layerGroups[element.type + element.zoomValue]);
     newMarker.bindTooltip(`<h3 style = 'color: ${element.color}'>${element.name}</h3>`, {permanent: true, }).openTooltip().bindPopup(
         `<h2 class = 'custom_popup_name'><img src="${element.type_icon.options.iconUrl}" alt="icon">${element.name}<p>${element.type}</p></h2>` +
-        `<img class = 'custom_popup_image' src="${element.picture}" alt="Image">` +
+        `<img class = 'custom_popup_image' src=".${element.picture}" alt="Image">` +
         `<table class ='custom_popup_table'><tbody><tr><td>Lundi</td><td>${element.hours[0]}</td></tr><tr><td>Mardi<br></td><td>${element.hours[1]}</td></tr><tr><td>Mercredi</td><td>${element.hours[2]}</td></tr><tr><td>Jeudi</td><td>${element.hours[3]}</td></tr><tr><td>Vendredi</td><td>${element.hours[4]}</td></tr><tr><td>Samedi</td><td>${element.hours[5]}</td></tr><tr><td>Dimanche</td><td>${element.hours[6]}</td></tr></tbody></table>` +
         `<div class ='custom_popup_div'><div class ='custom_popup_hr'></div></div>` +
         `<p class = 'custom_popup_comment'>${element.comment}</p>` +
         `<div class ='custom_popup_div'><div class ='custom_popup_hr'></div></div>` +
-        `<a class ='custom_popup_link' href="${element.GoogleMapLink}"><img class = 'custom_popup_icon_map' src="/src/icons_map/map--location-arrow.svg" alt="icon">Ouvrir Google Map</a>` +
-        `<a class ='custom_popup_link' href="tel:${element.number}"><img class = 'custom_popup_icon_map' src="/src/icons_map/basil--phone-solid.svg" alt="icon">${element.number}</a>`,
+        `<a class ='custom_popup_link' href="${element.GoogleMapLink}"><img class = 'custom_popup_icon_map' src="./src/icons_map/map--location-arrow.svg" alt="icon">Ouvrir Google Map</a>` +
+        `<a class ='custom_popup_link' href="tel:${element.number}"><img class = 'custom_popup_icon_map' src="./src/icons_map/basil--phone-solid.svg" alt="icon">${element.number}</a>`,
         {pane: "custom_popup", autoPan: false});
 });
