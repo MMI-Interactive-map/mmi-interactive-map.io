@@ -23,7 +23,7 @@ if (hour < 18) {
     document.querySelector(".get_img").src = "./src/icons_map/lightmode.png";
 } else {
     Stadia_AlidadeSmoothDark.addTo(map);
-    document.querySelector(".get_img").src = "./src/icons_map/darkmode.png";
+    document.querySelector(".get_img").src = "./src/icons_map/DarkMode.png";
 } 
 
 map.createPane("custom_popup", map.getContainer());
