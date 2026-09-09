@@ -49,41 +49,6 @@ export let spots_places = [
     color: "#6BC919",
     zoomValue: 14
   },
-<<<<<<< Updated upstream
-  // {
-  //   id: 3,
-  //   location: [43.2334227, 0.077761],
-  //   name: "Restaurant test",
-  //   hours: [
-  //     ["09h30-19h30"], ["08h45-19h30"], ["08h45-19h30"], ["08h45-19h30"], ["08h45-19h30"], ["08h45-19h30"], ["Fermé"]
-  //   ],
-  //   comment: "Pas de commentaire, ceci est un test",
-  //   GoogleMapLink: "https://www.google.com/maps/dir//...",
-  //   number: "05 62 93 01 67",
-  //   picture: "/src/pharmacie_ba.png",
-  //   type: "Restaurants",
-  //   type_icon: icons["restaurant_icon"],
-  //   color: "#E2D100",
-  //   zoomValue: 13
-  // },
-  // {
-  //   id: 4,
-  //   location: [43.234009, 0.0784369],
-  //   name: "Partner test",
-  //   hours: [
-  //     ["09h30-19h30"], ["08h45-19h30"], ["08h45-19h30"], ["08h45-19h30"], ["08h45-19h30"], ["08h45-19h30"], ["Fermé"]
-  //   ],
-  //   comment: "Pas de commentaire, ceci est un test",
-  //   GoogleMapLink: "https://www.google.com/maps/dir//...",
-  //   number: "05 62 93 01 67",
-  //   picture: "/src/pharmacie_ba.png",
-  //   type: "Partners",
-  //   type_icon: icons["partner_icon"],
-  //   color: "#C300BC",
-  //   zoomValue: 13
-  // },
-=======
->>>>>>> Stashed changes
   {
     id: 5,
     location: [43.23840601802414, 0.041308664053504154],
@@ -244,41 +209,6 @@ export let spots_places = [
     color: "#E2D100",
     zoomValue: 13
   },
-<<<<<<< Updated upstream
-  // {
-  //   id: 15,
-  //   location: [43.230000, 0.070000],
-  //   name: "Naan 2",
-  //   hours: [
-  //     ["11h00-22h30"], ["11h00-22h30"], ["11h00-22h30"], ["11h00-22h30"], ["11h00-23h00"], ["11h00-23h00"], ["11h00-22h30"]
-  //   ],
-  //   comment: "À compléter",
-  //   GoogleMapLink: "#",
-  //   number: "00 00 00 00 00",
-  //   picture: "/src/placeholder.png",
-  //   type: "Restaurants",
-  //   type_icon: icons["restaurant_icon"],
-  //   color: "#E2D100",
-  //   zoomValue: 13
-  // },
-  // {
-  //   id: 16,
-  //   location: [43.230000, 0.070000],
-  //   name: "Soulinan",
-  //   hours: [
-  //     ["11h00-22h30"], ["11h00-22h30"], ["11h00-22h30"], ["11h00-22h30"], ["11h00-23h00"], ["11h00-23h00"], ["11h00-22h30"]
-  //   ],
-  //   comment: "À compléter",
-  //   GoogleMapLink: "#",
-  //   number: "00 00 00 00 00",
-  //   picture: "/src/placeholder.png",
-  //   type: "Restaurants",
-  //   type_icon: icons["restaurant_icon"],
-  //   color: "#E2D100",
-  //   zoomValue: 13
-  // },
-=======
->>>>>>> Stashed changes
   {
     id: 17,
     location: [43.22441221792868, 0.04448681626401397],
@@ -311,25 +241,6 @@ export let spots_places = [
     color: "#E2D100",
     zoomValue: 13
   },
-<<<<<<< Updated upstream
-  // {
-  //   id: 19,
-  //   location: [43.230000, 0.070000],
-  //   name: "Kebab (T2)",
-  //   hours: [
-  //     ["11h00-22h30"], ["11h00-22h30"], ["11h00-22h30"], ["11h00-22h30"], ["11h00-23h00"], ["11h00-23h00"], ["11h00-22h30"]
-  //   ],
-  //   comment: "À compléter",
-  //   GoogleMapLink: "#",
-  //   number: "00 00 00 00 00",
-  //   picture: "/src/placeholder.png",
-  //   type: "Restaurants",
-  //   type_icon: icons["restaurant_icon"],
-  //   color: "#E2D100",
-  //   zoomValue: 13
-  // },
-=======
->>>>>>> Stashed changes
   {
     id: 20,
     location: [43.242119392547764, 0.02016809994841397],
@@ -601,8 +512,6 @@ export let spots_places = [
     type_icon: icons["store_icon"],
     color: "#00A2FF",
     zoomValue: 13
-<<<<<<< Updated upstream
-=======
   },
   {
     id: 39,
@@ -635,7 +544,6 @@ export let spots_places = [
     type_icon: icons["store_icon"],
     color: "#00A2FF",
     zoomValue: 13
->>>>>>> Stashed changes
   },
   // {
   //   id: 41,
@@ -654,73 +562,6 @@ export let spots_places = [
   //   zoomValue: 13
   // },
   {
-<<<<<<< Updated upstream
-    id: 38,
-    location: [43.23789034975553, 0.019619711696504755],
-    name: "Action Ibos",
-    hours: [
-      ["08h30-19h30"], ["08h30-19h30"], ["08h30-19h30"], ["08h30-19h30"], ["08h30-19h30"], ["08h30-19h30"], ["Fermé"]
-    ],
-    comment: "À compléter",
-    GoogleMapLink: "#",
-    number: "00 00 00 00 00",
-    picture: "/src/placeholder.png",
-    type: "Magasins",
-    type_icon: icons["store_icon"],
-    color: "#00A2FF",
-    zoomValue: 13
-  },
-  {
-    id: 39,
-    location: [43.259190080045464, 0.07220915596588634],
-    name: "Action 2 Tarbes",
-    hours: [
-      ["08h30-19h30"], ["08h30-19h30"], ["08h30-19h30"], ["08h30-19h30"], ["08h30-19h30"], ["08h30-19h30"], ["Fermé"]
-    ],
-    comment: "À compléter",
-    GoogleMapLink: "#",
-    number: "00 00 00 00 00",
-    picture: "/src/placeholder.png",
-    type: "Magasins",
-    type_icon: icons["store_icon"],
-    color: "#00A2FF",
-    zoomValue: 13
-  },
-  {
-    id: 40,
-    location: [43.2407008583896, 0.02060827736069244],
-    name: "Kiabi Ibos",
-    hours: [
-      ["08h30-19h30"], ["08h30-19h30"], ["08h30-19h30"], ["08h30-19h30"], ["08h30-19h30"], ["08h30-19h30"], ["Fermé"]
-    ],
-    comment: "À compléter",
-    GoogleMapLink: "#",
-    number: "00 00 00 00 00",
-    picture: "/src/placeholder.png",
-    type: "Magasins",
-    type_icon: icons["store_icon"],
-    color: "#00A2FF",
-    zoomValue: 13
-  },
-  {
-    id: 41,
-    location: [43.23671313501331, 0.047550992637200494],
-    name: "Decathlon Tarbes",
-    hours: [
-      ["08h30-19h30"], ["08h30-19h30"], ["08h30-19h30"], ["08h30-19h30"], ["08h30-19h30"], ["08h30-19h30"], ["Fermé"]
-    ],
-    comment: "À compléter",
-    GoogleMapLink: "#",
-    number: "00 00 00 00 00",
-    picture: "/src/placeholder.png",
-    type: "Magasins",
-    type_icon: icons["store_icon"],
-    color: "#00A2FF",
-    zoomValue: 13
-  },
-  {
-=======
->>>>>>> Stashed changes
     id: 42,
     location: [43.23272538484126, 0.07432459634081699],
     name: "La Mie Câline",
@@ -800,25 +641,6 @@ export let spots_places = [
     color: "#FF5733",
     zoomValue: 13
   },
-<<<<<<< Updated upstream
-  // {
-  //   id: 47,
-  //   location: [43.230000, 0.070000],
-  //   name: "Palais de Justice",
-  //   hours: [
-  //     ["09h00-17h00"], ["09h00-17h00"], ["09h00-17h00"], ["09h00-17h00"], ["09h00-17h00"], ["Fermé"], ["Fermé"]
-  //   ],
-  //   comment: "À compléter",
-  //   GoogleMapLink: "#",
-  //   number: "00 00 00 00 00",
-  //   picture: "/src/placeholder.png",
-  //   type: "Administration",
-  //   type_icon: icons["administation_icon"],
-  //   color: "#FF5733",
-  //   zoomValue: 13
-  // },
-=======
->>>>>>> Stashed changes
   {
     id: 48,
     location: [43.23372832326439, 0.07634149527313805],
@@ -835,41 +657,6 @@ export let spots_places = [
     color: "#FF5733",
     zoomValue: 13
   },
-<<<<<<< Updated upstream
-  // {
-  //   id: 49,
-  //   location: [43.230000, 0.070000],
-  //   name: "Free",
-  //   hours: [
-  //     ["09h00-17h00"], ["09h00-17h00"], ["09h00-17h00"], ["09h00-17h00"], ["09h00-17h00"], ["Fermé"], ["Fermé"]
-  //   ],
-  //   comment: "À compléter",
-  //   GoogleMapLink: "#",
-  //   number: "00 00 00 00 00",
-  //   picture: "/src/placeholder.png",
-  //   type: "Administration",
-  //   type_icon: icons["administation_icon"],
-  //   color: "#FF5733",
-  //   zoomValue: 13
-  // },
-  // {
-  //   id: 50,
-  //   location: [43.230000, 0.070000],
-  //   name: "Boyeeg",
-  //   hours: [
-  //     ["09h00-17h00"], ["09h00-17h00"], ["09h00-17h00"], ["09h00-17h00"], ["09h00-17h00"], ["Fermé"], ["Fermé"]
-  //   ],
-  //   comment: "À compléter",
-  //   GoogleMapLink: "#",
-  //   number: "00 00 00 00 00",
-  //   picture: "/src/placeholder.png",
-  //   type: "Administration",
-  //   type_icon: icons["administation_icon"],
-  //   color: "#FF5733",
-  //   zoomValue: 13
-  // },
-=======
->>>>>>> Stashed changes
   {
     id: 51,
     location: [43.22045963060063, 0.057008996668536024],
@@ -886,41 +673,6 @@ export let spots_places = [
     color: "#6BC919",
     zoomValue: 15
   },
-<<<<<<< Updated upstream
-  // {
-  //   id: 52,
-  //   location: [43.230000, 0.070000],
-  //   name: "Pharmaacie",
-  //   hours: [
-  //     ["08h00-19h00"], ["08h00-19h00"], ["08h00-19h00"], ["08h00-19h00"], ["08h00-19h00"], ["08h00-12h00"], ["Fermé"]
-  //   ],
-  //   comment: "À compléter",
-  //   GoogleMapLink: "#",
-  //   number: "00 00 00 00 00",
-  //   picture: "/src/placeholder.png",
-  //   type: "Médical",
-  //   type_icon: icons["medical_icon"],
-  //   color: "#6BC919",
-  //   zoomValue: 13
-  // },
-  // {
-  //   id: 53,
-  //   location: [43.230000, 0.070000],
-  //   name: "Maison de Santé",
-  //   hours: [
-  //     ["08h00-19h00"], ["08h00-19h00"], ["08h00-19h00"], ["08h00-19h00"], ["08h00-19h00"], ["08h00-12h00"], ["Fermé"]
-  //   ],
-  //   comment: "À compléter",
-  //   GoogleMapLink: "#",
-  //   number: "00 00 00 00 00",
-  //   picture: "/src/placeholder.png",
-  //   type: "Médical",
-  //   type_icon: icons["medical_icon"],
-  //   color: "#6BC919",
-  //   zoomValue: 13
-  // },
-=======
->>>>>>> Stashed changes
   {
     id: 54,
     location: [43.24491252169131, 0.0641318064672357],
@@ -969,25 +721,6 @@ export let spots_places = [
     color: "#FFC300",
     zoomValue: 13
   },
-<<<<<<< Updated upstream
-  // {
-  //   id: 57,
-  //   location: [43.230000, 0.070000],
-  //   name: "Société general",
-  //   hours: [
-  //     ["Fermé"], ["09h00-17h30"], ["09h00-17h30"], ["09h00-17h30"], ["09h00-17h30"], ["09h00-12h30"], ["Fermé"]
-  //   ],
-  //   comment: "À compléter",
-  //   GoogleMapLink: "#",
-  //   number: "00 00 00 00 00",
-  //   picture: "/src/placeholder.png",
-  //   type: "Banques",
-  //   type_icon: icons["bank_icon"],
-  //   color: "#FFC300",
-  //   zoomValue: 13
-  // },
-=======
->>>>>>> Stashed changes
   {
     id: 58,
     location: [43.240056071378675, 0.016908646857896358],
@@ -1052,25 +785,6 @@ export let spots_places = [
     color: "#FF33A8",
     zoomValue: 13
   },
-<<<<<<< Updated upstream
-  // {
-  //   id: 62,
-  //   location: [43.230000, 0.070000],
-  //   name: "Musées",
-  //   hours: [
-  //     ["14h00-23h00"], ["14h00-23h00"], ["14h00-23h00"], ["14h00-23h00"], ["14h00-01h00"], ["14h00-01h00"], ["14h00-20h00"]
-  //   ],
-  //   comment: "À compléter",
-  //   GoogleMapLink: "#",
-  //   number: "00 00 00 00 00",
-  //   picture: "/src/placeholder.png",
-  //   type: "Activités",
-  //   type_icon: icons["activity_icon"],
-  //   color: "#FF33A8",
-  //   zoomValue: 13
-  // },
-=======
->>>>>>> Stashed changes
   {
     id: 63,
     location: [43.239432926225035, 0.01344842236624706],
@@ -1126,33 +840,6 @@ export let spots_places = [
     hours: [
       ["Fermé"], ["16h00-22h00"], ["16h00-22h00"], ["16h00-02h00"], ["16h00-02h00"], ["16h00-02h00"], ["Fermé"]
     ],
-<<<<<<< Updated upstream
-    comment: "À compléter",
-    GoogleMapLink: "#",
-    number: "00 00 00 00 00",
-    picture: "/src/placeholder.png",
-    type: "Activités",
-    type_icon: icons["activity_icon"],
-    color: "#FF33A8",
-    zoomValue: 13
-  },
-  // {
-  //   id: 68,
-  //   location: [43.230000, 0.070000],
-  //   name: "Parc d'exposition",
-  //   hours: [
-  //     ["14h00-23h00"], ["14h00-23h00"], ["14h00-23h00"], ["14h00-23h00"], ["14h00-01h00"], ["14h00-01h00"], ["14h00-20h00"]
-  //   ],
-  //   comment: "À compléter",
-  //   GoogleMapLink: "#",
-  //   number: "00 00 00 00 00",
-  //   picture: "/src/placeholder.png",
-  //   type: "Activités",
-  //   type_icon: icons["activity_icon"],
-  //   color: "#FF33A8",
-  //   zoomValue: 13
-  // }
-=======
     comment: "Remise en disant qu'on est en MMI",
     GoogleMapLink: "https://www.google.com/maps/place/Le+Plan+B/@43.2368532,0.0358091,15z/data=!3m1!4b1!4m6!3m5!1s0x12a9d5f61f92ec75:0xb9c3ccac50ad60aa!8m2!3d43.236838!4d0.0461088!16s%2Fg%2F11tmww9ldy?entry=ttu&g_ep=EgoyMDI2MDkwMi4wIKXMDSoASAFQAw%3D%3D",
     number: "0562348592",
@@ -1194,5 +881,4 @@ export let spots_places = [
     color: "#FF33A8",
     zoomValue: 13
   }
->>>>>>> Stashed changes
 ];
